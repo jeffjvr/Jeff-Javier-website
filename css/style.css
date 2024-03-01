@@ -1,0 +1,99 @@
+/* Website Style */
+
+body {
+ font-family: 'Noto Serif TC', 'Arial' sans-serif;
+ background-color: #967fc5;
+ background-image: url(images/pattern.png);
+ color: #333;
+ margin: 0;
+ padding: 0;   
+ font-size: 14px;
+ 
+}
+
+hi{
+    text-align: left;
+}
+header {
+    background-color: #79a3b1;
+    color: white
+    padding: 20px 0;
+    text-align: center;
+}
+
+.banner {
+    height: 50px;
+    background-image: url(images/banner.jpg);
+  }
+
+header h1{
+    margin: 0;
+    font-size: 36px;
+    font-weight: BOLD;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+main {
+    width 80%;
+    margin: 20px auto;
+}
+
+p{
+    font-family: 'Noto Serif TC', 'Arial' sans-serif;
+    margin: 0;
+    padding: 0;   
+    font-size: 14px;  
+    text-align: center;
+    line-height: 2;
+    
+}
+.introduction, .ingredients, .instructions{
+    background-color: #f8f8f8;
+    background-image: url(images/bush.png);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8pxbox-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.ingredients h2, .instructions h2{
+    color: #b3568f;
+    font-size: 24px;
+    font-weight:Bold;
+    font-style: italic;
+    text-align: center;
+  
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+ul, ol {
+    margin-left: 20px;
+    
+    
+}
+
+a{
+    text-align: center;
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+   text-decoration: underline;
+}
+    
+
+
+footer {
+    text-align: center;
+    background-color: #79a3b1
+    color: white;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
